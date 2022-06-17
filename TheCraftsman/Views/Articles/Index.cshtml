@@ -48,7 +48,7 @@
                     @Html.DisplayFor(modelItem => item.Material.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.VideoUrl)
+                    <a href="@Url.Content(item.VideoUrl)">Click here for video</a>
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.User.UserName)
